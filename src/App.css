@@ -1,0 +1,85 @@
+.App {
+    background-color: #ED2424;
+    width: 30rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 25rem;
+    align-items: center;
+    margin : 2rem 0;
+    border-radius: 10px;
+    padding: 0;
+    color: white;
+}
+
+.item h3, h4{
+    margin-left: 1rem;
+}
+
+.item button {
+    margin-right: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px;
+}
+
+.item button:hover {
+    box-shadow: 1px 1px 5px;
+}
+
+.showbutton {
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem;
+    box-shadow: 3px 3px 5px;
+    cursor: pointer;
+}
+
+.showbutton:hover {
+    box-shadow:  1px 1px 5px;
+}
+
+.App label {
+    font-size: 2rem;
+}
+
+.App input {
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.addbutton {
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem;
+    box-shadow: 3px 3px 5px;
+    cursor: pointer;
+}
+
+.addbutton:hover {
+    box-shadow:  1px 1px 5px;
+}
+
+
